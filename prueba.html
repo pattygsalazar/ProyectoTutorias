@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+<style>
+    *
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+.patito 
+{
+ background: coral;
+ transition: 3s all ease-out;
+}
+
+.patito:hover 
+{
+ height: 200px;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ color: red;
+ background: cyan;
+
+}
+
+.contenedor
+{
+ width: 100%;
+ max-width: 1200px;
+ margin: auto;
+}
+
+.patito > .contenedor 
+{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="patito">
+        <div class="contenedor">
+          <h2>HOLA PATI</h2>
+          <h3>soy plasma</h3>
+        </div>
+    </div>
+</body>
+</html>
