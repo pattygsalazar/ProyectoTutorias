@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">  
 
 </head>
   <body>
@@ -40,28 +40,72 @@
       <!--#######################  Header    #######################-->
       <header class="cabecera">
    <div class="container">
-<h1> Agregar Materia</h1>
+<h1>Crear Publicación</h1>
 </div>
       </header>
 
       <!--#######################   Formulario para Agregar Materias   #######################-->
-<div class="formAgMat bg-light align-lg-center mt-2 mx-auto">
+<div class="formAgPub bg-light align-lg-center mt-2 mx-auto">
   <div class="container">
     <form class="">
+
       <div class="input-group mb-3 w-75">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Clave</span>
+          <span class="input-group-text" id="basic-addon1">Titulo</span>
         </div>
-        <input type="text" name="txtClave" id="txtClave" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group mb-3 w-100">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Nombre</span>
-        </div>
-        <input type="text" name="txtNombre" id="txtNombre" class="form-control" aria-describedby="basic-addon1">
+        <input type="text" name="txtTitulo" id="txtTitulo" class="form-control" aria-describedby="basic-addon1">
       </div>
 
-      <button class="btn btn-secondary btn-md float-right" type="submit">Agregar</button>
+
+      <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Contenido</span>
+        </div>
+       <textarea  class="form-control" name="txtContenido"  id="txtContenido" cols="30" rows="10"></textarea>
+      </div>
+<div class="agVideo">
+  <h3>Video</h3>
+      <div class="input-group mb-3 w-100">
+<div class="input-group-prepend ">
+          <span class="input-group-text" id="basic-addon1">Titulo</span>
+        </div>
+      <input class="form-control" type="text" name="txtTitulo" id="txtTitulo">
+      </div>
+
+      <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend ">
+                  <span class="input-group-text" id="basic-addon1">URL</span>
+                </div>
+              <input class="form-control" type="url" name="inpURL" id="inpURL">
+              </div>
+</div>
+      
+<div class="agArchivo">
+  <h3>Archivo</h3>
+              <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend ">
+                  <span class="input-group-text" id="basic-addon1">Nombre</span>
+                </div>
+              <input class="form-control" type="text" name="txtNombre" id="txtNombre">
+              </div>
+        
+              <div class="input-group mb-3 w-100">
+                <div class="input-group-prepend ">
+                          <span class="input-group-text" id="basic-addon1">Tipo</span>
+                        </div>
+                      <input class="form-control" type="text" name="txtTipo" id="txtTipo">
+                      </div>
+
+
+                      <div class="input-group mb-3 w-100">
+                        <div class="input-group-prepend ">
+                                  <span class="input-group-text" id="basic-addon1">Ruta</span>
+                                </div>
+                              <input class="form-control" disabled type="text" name="txtRuta" id="txtRuta">
+                              <button class="btn btn-secondary btn-md float-right" type="submit">Examinar</button>
+                              </div>
+</div>
+<button class="btn btn-secondary btn-md float-right" type="submit">Agregar</button>
       
       
      
