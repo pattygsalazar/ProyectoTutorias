@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Docente | Inicio</title>
+    <title>Alumno | Inicio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,12 +25,12 @@
         <span class="navbar-text dropdown">
          
             <a class="nav-link dropdown-toggle  text-white " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="far fa-user"></i>   Docente: Ernestina Leija
+              <i class="far fa-user"></i>   Estudiante: Patty Salazar
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Mis materias</a>
               <hr class="dropdown-divider">
-              <a class="dropdown-item" href="../Docente/index.html">Cuenta</a>
+              <a class="dropdown-item" href="../Alumno/index.html">Cuenta</a>
               <a class="dropdown-item" href="#">Cerrar sesión</a>
               
             </div>
@@ -47,8 +47,8 @@
 </div>
       </header>
 
-      <!--#######################   Formulario Docentes  #######################-->
-<div class="formReadDoc bg-light align-lg-center mt-2 mx-auto mb-2">  
+      <!--#######################   Formulario Alumnos  #######################-->
+<div class="formReadAl bg-light align-lg-center mt-2 mx-auto mb-2">  
     <div class="containerDatosPersonales">
          <h3 id="eDatosPersonales ">Datos personales</h3>
          <div class="btn-group">
@@ -64,46 +64,82 @@
  
  <div class="container my-2 bg-light">
         <form class="bg-light" >
-            <div class="input-group mb-3 ">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Numero de Control</span>
-        </div>
-        <input type="text" name="txtNumControl" id="txtNumControl" class="form-control" aria-describedby="basic-addon1" value="161G0242">
-      </div>
-      <div class="input-group mb-3 w-100">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Nombre</span>
-        </div>
-        <input type="text" name="txtNombre" id="txtNombre" class="form-control" aria-describedby="basic-addon1" value="Patty">
-      </div>
-      <div class="input-group mb-3 w-100">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Apelido Paterno</span>
-        </div>
-        <input type="text" name="txtApPaterno" id="txtApPaterno" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group mb-3 w-100">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Apellido Materno</span>
-        </div>
-        <input type="text" name="txtApMaterno" id="txtApMaterno" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group mb-3 w-100">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Email</span>
-        </div>
-        <input type="email" name="txtEmail" id="txtEmail" class="form-control" aria-describedby="basic-addon1">
-      </div>
+          <div class="input-group mb-3 ">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Numero de Control</span>
+            </div>
+            <input type="text" name="txtNumControl" id="txtNumControl" class="form-control" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3 w-100">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Nombre</span>
+            </div>
+            <input type="text" name="txtNombre" id="txtNombre" class="form-control" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3 w-100">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Apellido Paterno</span>
+            </div>
+            <input type="text" name="txtApPaterno" id="txtApPaterno" class="form-control" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3 w-100">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Apellido Materno</span>
+            </div>
+            <input type="text" name="txtApMaterno" id="txtApMaterno" class="form-control" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3 w-100">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Semestre</span>
+            </div>
+            <select class="form-control" aria-label="Default select example">
+              <option selected>Selecciona una semestre</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+      </select>
+          </div>
+    
+          <div class="input-group mb-3 w-100">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Carrera</span>
+            </div>
+            <select class="form-control" aria-label="Default select example">
+              <option selected>Seleccione una carrera</option>
+              <option >Ing. Sistemas Computacionales</option>
+              <option >Ing. Administración</option>
+              <option >Ing. Industrial</option>
+              <option >Ing. Mecatronica</option>
+              <option >Ing. Electromecanica</option>
+              <option >Ing. Petrolera</option>
+             
+      </select>
+          </div>
+          <div class="input-group mb-3 w-100">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Email</span>
+            </div>
+            <input type="email" name="txtEmail" id="txtEmail" class="form-control" aria-describedby="basic-addon1">
+          </div>
+    
+          <div class="input-group mb-3 w-100">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Contraseña</span>
+            </div>
+            <input type="password" name="txtContraseña" id="txtContraseña" class="form-control" aria-describedby="basic-addon1">
+          </div>
 
-      <div class="input-group mb-3 w-100">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">Contraseña</span>
-        </div>
-        <input type="password" name="txtContraseña" id="txtContraseña" class="form-control" aria-describedby="basic-addon1">
-      </div>
-
-      <h6 id="enRead">Materias que imparte:</h6>
-      <h6 id="enEdit">Seleccione las materias que imparte:</h6>
+      <h6 id="enRead">Materias que cursa:</h6>
+      <h6 id="enEdit">Seleccione las materias que cursa:</h6>
       <!--#######################  Scroll Editar Materias    #######################-->
    <div id="scrollMat" class="bg-light mb-4 scrollMat" style="overflow-y:auto; overflow-x:hidden; height:200px; border: solid 1px rgba(0, 0, 0, 0.24); border-radius: 5px;">
     <div class="container">
