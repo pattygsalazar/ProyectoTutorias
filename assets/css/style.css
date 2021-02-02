@@ -130,30 +130,48 @@ height: 200PX;
 }
 
 
-.formAgDoc, .formDoc >.container
+.formAgDoc, .formDoc, .formEditDoc >.container
 {
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
+    
   
   
 
 }
 
-.formAgDoc, .formDoc{
+.formAgDoc, .formDoc, .formEditDoc{
 width: 600px;
-height:660px ;
+height:685px ;
 
 }
 
 
 /*Read Edit Delete Docentes*/
 
+#scrollMatVer > label
+{
+    display: block;
+}
 
 
 
-
+ .formEditDoc>.containerDatosPersonales{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content:center;
+   padding-top: 15px;
+   width: 95%;
+ margin: auto;
+   
+  
+    
+  
+}
 
 
 

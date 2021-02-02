@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Docente | Inicio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">  
+
+</head>
+  <body>
+
+    <!--#######################  navbar    #######################-->
+    <nav class="navbar navbar-expand navbar-light shadow p-3 rounded">
+      <a class="navbar-brand text-white" href="#">Tutorias</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a id="materias" class="nav-link" style="font-size:19px; color:rgba(255, 255, 255, 0.644);"  href="../Materia/index.html">Materias</a>
+          </li>
+        </ul>
+        <span class="navbar-text dropdown">
+         
+            <a class="nav-link dropdown-toggle  text-white " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="far fa-user"></i>   Docente: Ernestina Leija
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Mis materias</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item" href="../Docente/index.html">Cuenta</a>
+              <a class="dropdown-item" href="#">Cerrar sesión</a>
+              
+            </div>
+        
+        </span>
+    
+    </nav>
+
+
+      <!--#######################  Header    #######################-->
+      <header class="cabecera">
+   <div class="container">
+<h1>Cuenta</h1>
+</div>
+      </header>
+
+      <!--#######################   Formulario Docentes  #######################-->
+<div class="formEditDoc bg-light align-lg-center mt-2 mx-auto mb-2">  
+    <div class="containerDatosPersonales">
+         <h3 id="eDatosPersonales ">Datos personales</h3>
+         <div class="btn-group">
+          <button type="button" href="#" class="btn btn-light">
+            <i class="far fa-trash-alt"></i>
+          </button>
+          <a class="btn btn-light" id="btnEditar">
+            <i class="fas fa-pen"></i>
+          </a>
+        
+       </div> 
+        </div>
+ 
+ <div class="container my-2 bg-light ">
+        <form class="" >
+            <div class="input-group mb-3 ">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Numero de Control</span>
+        </div>
+        <input type="text" name="txtNumControl" id="txtNumControl" class="form-control" aria-describedby="basic-addon1" value="161G0242">
+      </div>
+      <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Nombre</span>
+        </div>
+        <input type="text" name="txtNombre" id="txtNombre" class="form-control" aria-describedby="basic-addon1" value="Patty">
+      </div>
+      <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Apelido Paterno</span>
+        </div>
+        <input type="text" name="txtApPaterno" id="txtApPaterno" class="form-control" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Apellido Materno</span>
+        </div>
+        <input type="text" name="txtApMaterno" id="txtApMaterno" class="form-control" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Email</span>
+        </div>
+        <input type="email" name="txtEmail" id="txtEmail" class="form-control" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group mb-3 w-100">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Contraseña</span>
+        </div>
+        <input type="password" name="txtContraseña" id="txtContraseña" class="form-control" aria-describedby="basic-addon1">
+      </div>
+
+      <h6 id="enRead">Materias que imparte:</h6>
+      <h6 id="enEdit">Seleccione las materias que imparte:</h6>
+      <!--#######################  Scroll Editar Materias    #######################-->
+   <div id="scrollMat" class="bg-light mb-4" style="overflow: scroll; height:200px;">
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+         Administración
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Matematicas discretas
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+         Calculo
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Redes
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+         Ingles
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Taller de Investigación
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Probabilidad y Estadistica
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+       Base de Datos
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+         Arquitectura 
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+       IoT
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+       Base de Datos
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+         Arquitectura 
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+       IoT
+        </label>
+      </div>
+   </div>
+ <!--#######################  Scroll Read Materias    #######################-->
+ <div id="scrollMatVer" class="bg-light mb-4" style="overflow: scroll; height:200px;">
+
+      <label class="form-check-label" for="defaultCheck1"> Administración</label>
+      <label class="form-check-label" for="defaultCheck1"> Matematicas discretas</label>
+    <label class="form-check-label" for="defaultCheck1"> Calculo</label>
+   <label class="form-check-label" for="defaultCheck1"> Redes</label>
+    <label class="form-check-label" for="defaultCheck1"> Ingles</label>
+    <label class="form-check-label" for="defaultCheck1"> Taller de Investigación </label>
+    <label class="form-check-label" for="defaultCheck1"> Probabilidad y Estadistica </label>
+    <label class="form-check-label" for="defaultCheck1"> Base de Datos </label>
+     <label class="form-check-label" for="defaultCheck1"> Arquitectura </label>
+    <label class="form-check-label" for="defaultCheck1"> IoT </label>
+   <label class="form-check-label" for="defaultCheck1"> Base de Datos</label>
+    <label class="form-check-label" for="defaultCheck1"> Arquitectura 
+    <label class="form-check-label" for="defaultCheck1"> IoT</label>
+   </div>
+
+    <button class="btn btn-secondary btn-md float-right" id="btnGuardar" name="btnGuardar" type="submit">Guardar</button> 
+
+</div>
+   
+
+    
+     
+      
+      
+     
+    
+
+  </div>
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+ 
+    <script>
+    $("#txtNumControl").prop("disabled", true);
+    $("#txtNombre").prop("disabled", true);
+    $("#txtApPaterno").prop("disabled", true);
+    $("#txtApMaterno").prop("disabled", true);
+    $("#txtEmail").prop("disabled", true);
+    $("#txtContraseña").prop("disabled", true);
+    $("#scrollMat").prop("hidden", true);
+    $("#enEdit").prop("hidden", true);
+    $("#btnGuardar").prop("hidden", true);
+    
+    
+    
+      </script>
+
+<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script> 
+<script> 
+
+$(document).ready(function() { 
+	
+	$("#btnEditar").click(function(){ 
+    $("#txtNumControl").prop("disabled", false);
+    $("#txtNombre").prop("disabled", false);
+    $("#txtApPaterno").prop("disabled", false);
+    $("#txtApMaterno").prop("disabled", false);
+    $("#txtEmail").prop("disabled", false);
+    $("#txtContraseña").prop("disabled", false);
+    $("#scrollMat").prop("hidden", false);
+    $("#enEdit").prop("hidden", false);
+    $("#btnGuardar").prop("hidden", false);
+    $("#enRead").prop("hidden", true);
+    $("#scrollMatVer").prop("hidden", true);
+		}); 
+		
+}); 
+
+</script> 
+ 
+  </body>
+</html>
+
+
+<!-- Validaciones
+https://getbootstrap.com/docs/4.6/components/forms/#custom-styles -->
