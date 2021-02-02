@@ -115,36 +115,39 @@ height: 200PX;
 
 }
 
-/*docentes*/
+/* docentes*/
 /*Agregar Docentes*/
 
-.formAgDoc, .formDoc>.containerDatosPersonales{
-    height: 50px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    align-content:center;
-   padding-top: 15px;
-    
-  
-}
+/*Encabezado*/
+.formAgDoc > .containerDatosPersonales{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   padding-top: 15px; 
+     height: 50px;
+     width: 100%;
 
-
-.formAgDoc, .formDoc, .formEditDoc >.container
+}  
+/*Formulario*/
+.formAgDoc > .container, .formReadDoc > .container
 {
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    
-  
-  
-
+   
 }
 
-.formAgDoc, .formDoc, .formEditDoc{
+ 
+/*Todo el div. Almacena el form y el encabezado*/
+.formAgDoc{
+display: block;
+flex-direction: row;
+justify-content: center; 
+align-items: flex-start; 
 width: 600px;
-height:685px ;
+height:685px;
 
 }
 
@@ -156,9 +159,7 @@ height:685px ;
     display: block;
 }
 
-
-
- .formEditDoc>.containerDatosPersonales{
+.formReadDoc > .containerDatosPersonales{
     height: 50px;
     display: flex;
     justify-content:space-between;
@@ -166,13 +167,23 @@ height:685px ;
     align-content:center;
    padding-top: 15px;
    width: 95%;
- margin: auto;
-   
-  
-    
-  
+ margin: auto;  
 }
 
+/* .formReadDoc > .container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+} */
+
+.formReadDoc{
+    width: 600px;
+   height:685px;
+   
+   } 
 
 
 
