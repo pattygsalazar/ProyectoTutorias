@@ -34,7 +34,7 @@ color: white;
 } */
 
 
-
+/*Materias*/
 
 .container{
     width: 100%;
@@ -114,6 +114,42 @@ align-items: center;
 height: 200PX;
 
 }
+
+/*docentes*/
+/*Agregar Docentes*/
+
+.formAgDoc, .formDoc>.containerDatosPersonales{
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content:center;
+   padding-top: 15px;
+    
+  
+}
+
+
+.formAgDoc, .formDoc >.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+  
+  
+
+}
+
+.formAgDoc, .formDoc{
+width: 600px;
+height:660px ;
+
+}
+
+
+/*Read Edit Delete Docentes*/
+
 
 
 
